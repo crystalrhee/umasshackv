@@ -13,15 +13,17 @@
 	<div class="selection">
 		<form method='POST'>
 			<h2>Map</h2>
-			<a href="{% url 'map' %}" class="btn"><i class="fa fa-globe" aria-hidden="true"></i>
-				Map</a>
-			</form>
-			<form method='POST'>
-				<h2>Song</h2>
-				<a href="{% url 'song' %}" class="btn"><i class="fa fa-youtube-play" aria-hidden="true"></i>
-					Song</a>
-				</form>
-			</div>
-			{% endblock %}
-		</body>
-		</html>
+			<a href="{% url 'map' %}" class="btn">
+				<i class="fa fa-globe" aria-hidden="true"></i>Map
+			</a>
+		</form>
+		<form method='POST'>
+			<h2>Song</h2>
+			<a href="{% url 'song' %}" class="btn">
+				<i class="fa fa-youtube-play" aria-hidden="true"></i>Song
+			</a>
+		</form>
+	</div>
+	{% endblock %}
+</body>
+</html>

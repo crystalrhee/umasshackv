@@ -27,6 +27,11 @@ i {
 	margin-right: 10px;
 }
 
+.read {
+	color: white;
+	font-size: 10em;
+}
+
 .nav a {
 	color: #551A8B;
 	font-size: 20px;
@@ -66,7 +71,7 @@ input:focus {
 }
 
 .selection {
-	margin: 20% 0;
+	margin: 10% 0;
 	display: flex;
 	text-align: center;
 }

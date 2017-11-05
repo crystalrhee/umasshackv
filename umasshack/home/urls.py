@@ -6,4 +6,5 @@ urlpatterns = [
     url(r'^about/$', views.AboutPageView.as_view(), name='about'),
     url(r'^song/$', views.SongPageView.as_view(), name='song'),
     url(r'^map/$', views.MapPageView.as_view(), name='map'),
+    url(r'^bpm/(?P<bpm>\d+)/$', views.spotify_request, name='spotify_request'),
 ]
