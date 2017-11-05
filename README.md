@@ -8,11 +8,11 @@ This project uses Django version 1.11 and can be run on local server with the co
 `./manage.py runserver` on Mac OS.
 
 ## built with
-Django version 1.11
-HTML
-CSS
-JQuery
-Arduino
+  Django version 1.11  
+  HTML  
+  CSS  
+  JQuery  
+  Arduino  
 
 ## authors
 - **Crystal Rhee**  
