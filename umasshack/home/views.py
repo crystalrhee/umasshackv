@@ -41,8 +41,7 @@ class MapPageView(TemplateView):
         }
 
         return render(request, 'map.html', context)
-
-
+        
 def spotify_request(request, bpm):
     client_credentials_manager = SpotifyClientCredentials(
         client_id='client_id', 
