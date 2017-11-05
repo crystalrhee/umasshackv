@@ -15,15 +15,15 @@ JQuery
 Arduino
 
 ## authors
-- **Crystal Rhee** Software Developer:
+- **Crystal Rhee**  
   Northeastern University Computer Science and Finance Major  
   Web app developer  
 
-- **Matt Slivinski** Software Developer:
+- **Matt Slivinski**  
   UConn Machine Learning Major  
   Backend developer  
 
-- **Enid Gao** Data Scientist:
+- **Enid Gao**  
   UMass Amherst Mechanical Engineering Major  
   Arduino and Tableau implementation  
 
