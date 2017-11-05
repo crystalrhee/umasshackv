@@ -71,10 +71,7 @@ input:focus {
 }
 
 .selection {
-<<<<<<< HEAD
 	margin: 10% 0;
-=======
->>>>>>> 2a3747881e119bea75c92b84dffd9e2dd229a3a4
 	display: flex;
 	text-align: center;
 }
@@ -86,6 +83,7 @@ input:focus {
 }
 
 .selection form {
+	display: inline-block;
 	margin: 0 auto;
 }
 
@@ -114,7 +112,7 @@ input:focus {
 	user-select: none;
 
 	pointer-events: none;
-   cursor: default;
+	cursor: default;
 }
 
 .profiles {
