@@ -27,6 +27,11 @@ i {
 	margin-right: 10px;
 }
 
+span {
+	color: white;
+	font-size: 10em;
+}
+
 .nav a {
 	color: #551A8B;
 	font-size: 20px;
@@ -52,7 +57,7 @@ input {
 	outline: none;
 	padding: 10px 20px;
 	text-align: center;
-	/*width: -webkit-fill-available; 
+	/*width: -webkit-fill-available;
 	width: -moz-available;
 	width: 100%;*/
 }
@@ -66,7 +71,6 @@ input:focus {
 }
 
 .selection {
-	margin: 20% 0;
 	display: flex;
 	text-align: center;
 }
@@ -90,7 +94,7 @@ input:focus {
 	padding: 10px 40px;
 	text-decoration: none;
 	text-transform: uppercase;
-	
+
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
@@ -100,6 +104,18 @@ input:focus {
 	background-color: #8a3ab9;
 }
 
+.selection form .btn-disabled {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+
+	pointer-events: none;
+   cursor: default;
+}
+
+.profiles {
+	color: white;
+}
 
 @-webkit-keyframes Gradient {
 	0% {background-position: 0% 50%}
